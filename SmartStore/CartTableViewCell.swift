@@ -10,6 +10,9 @@ import UIKit
 
 class CartTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,4 +24,21 @@ class CartTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func initWithCart(cart: Cart) {
+        let d = NSDate(timeIntervalSince1970: cart.date).getFormatString()
+        dateLabel.text = "\(d)"
+        priceLabel.text = "\(cart.totalPrice) руб"
+    }
+    
+}
+
+extension NSDate {
+    func getFormatString() -> String {
+        let formatter = NSDateFormatter()
+//        formatter.dateFormat = "MM/dd/yyyy hh:mm"
+        formatter.dateStyle = .ShortStyle
+        formatter.timeStyle = .ShortStyle
+        formatter.timeZone = .None
+        return formatter.stringFromDate(self)
+    }
 }

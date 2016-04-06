@@ -14,6 +14,20 @@
 		083138EF1CA49B9D0050D6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083138ED1CA49B9D0050D6BC /* LaunchScreen.storyboard */; };
 		083138FA1CA49B9D0050D6BC /* SmartStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083138F91CA49B9D0050D6BC /* SmartStoreTests.swift */; };
 		083139051CA49B9E0050D6BC /* SmartStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083139041CA49B9E0050D6BC /* SmartStoreUITests.swift */; };
+		083139131CA49D310050D6BC /* AllItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083139121CA49D310050D6BC /* AllItemsViewController.swift */; };
+		083139151CA49D450050D6BC /* AllCartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083139141CA49D450050D6BC /* AllCartsViewController.swift */; };
+		083139171CA49F030050D6BC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083139161CA49F030050D6BC /* Item.swift */; };
+		0831391D1CA4A3A30050D6BC /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831391B1CA4A3A30050D6BC /* ItemTableViewCell.swift */; };
+		0831391E1CA4A3A30050D6BC /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0831391C1CA4A3A30050D6BC /* ItemTableViewCell.xib */; };
+		083139201CA4A8AB0050D6BC /* APIMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831391F1CA4A8AB0050D6BC /* APIMethods.swift */; };
+		083139221CA4A8F50050D6BC /* Alamofire-SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083139211CA4A8F50050D6BC /* Alamofire-SwiftyJSON.swift */; };
+		083139241CA4B2820050D6BC /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083139231CA4B2820050D6BC /* Cart.swift */; };
+		083139281CA4B4990050D6BC /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083139261CA4B4990050D6BC /* CartTableViewCell.swift */; };
+		083139291CA4B4990050D6BC /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 083139271CA4B4990050D6BC /* CartTableViewCell.xib */; };
+		0831392B1CA517F40050D6BC /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831392A1CA517F40050D6BC /* AddItemViewController.swift */; };
+		0831392E1CA5339C0050D6BC /* CartItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831392C1CA5339C0050D6BC /* CartItemTableViewCell.swift */; };
+		0831392F1CA5339C0050D6BC /* CartItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0831392D1CA5339C0050D6BC /* CartItemTableViewCell.xib */; };
+		BAA1B48D51E98E4E4A869E95 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC57E7D7DCDAD2FC4851E396 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,22 @@
 		083139001CA49B9D0050D6BC /* SmartStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		083139041CA49B9E0050D6BC /* SmartStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStoreUITests.swift; sourceTree = "<group>"; };
 		083139061CA49B9E0050D6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083139121CA49D310050D6BC /* AllItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllItemsViewController.swift; sourceTree = "<group>"; };
+		083139141CA49D450050D6BC /* AllCartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCartsViewController.swift; sourceTree = "<group>"; };
+		083139161CA49F030050D6BC /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0831391B1CA4A3A30050D6BC /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		0831391C1CA4A3A30050D6BC /* ItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		0831391F1CA4A8AB0050D6BC /* APIMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIMethods.swift; sourceTree = "<group>"; };
+		083139211CA4A8F50050D6BC /* Alamofire-SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire-SwiftyJSON.swift"; sourceTree = "<group>"; };
+		083139231CA4B2820050D6BC /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		083139261CA4B4990050D6BC /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		083139271CA4B4990050D6BC /* CartTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
+		0831392A1CA517F40050D6BC /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		0831392C1CA5339C0050D6BC /* CartItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItemTableViewCell.swift; sourceTree = "<group>"; };
+		0831392D1CA5339C0050D6BC /* CartItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartItemTableViewCell.xib; sourceTree = "<group>"; };
+		6449AD20977CD8E9704AC0FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CE1E9A2925B41651F7E71844 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DC57E7D7DCDAD2FC4851E396 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA1B48D51E98E4E4A869E95 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,8 @@
 				083138F81CA49B9D0050D6BC /* SmartStoreTests */,
 				083139031CA49B9E0050D6BC /* SmartStoreUITests */,
 				083138E21CA49B9D0050D6BC /* Products */,
+				EEBF3B48F74B5568C4E6FD17 /* Pods */,
+				CE32DE0AE31F05DCB6257D7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +136,12 @@
 				083138EB1CA49B9D0050D6BC /* Assets.xcassets */,
 				083138ED1CA49B9D0050D6BC /* LaunchScreen.storyboard */,
 				083138F01CA49B9D0050D6BC /* Info.plist */,
+				083139181CA4A3710050D6BC /* Items */,
+				083139251CA4B44B0050D6BC /* Carts */,
+				083139161CA49F030050D6BC /* Item.swift */,
+				083139231CA4B2820050D6BC /* Cart.swift */,
+				0831391F1CA4A8AB0050D6BC /* APIMethods.swift */,
+				0831392A1CA517F40050D6BC /* AddItemViewController.swift */,
 			);
 			path = SmartStore;
 			sourceTree = "<group>";
@@ -125,6 +164,46 @@
 			path = SmartStoreUITests;
 			sourceTree = "<group>";
 		};
+		083139181CA4A3710050D6BC /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				083139121CA49D310050D6BC /* AllItemsViewController.swift */,
+				0831391B1CA4A3A30050D6BC /* ItemTableViewCell.swift */,
+				0831391C1CA4A3A30050D6BC /* ItemTableViewCell.xib */,
+			);
+			name = Items;
+			sourceTree = "<group>";
+		};
+		083139251CA4B44B0050D6BC /* Carts */ = {
+			isa = PBXGroup;
+			children = (
+				083139141CA49D450050D6BC /* AllCartsViewController.swift */,
+				083139261CA4B4990050D6BC /* CartTableViewCell.swift */,
+				083139271CA4B4990050D6BC /* CartTableViewCell.xib */,
+				0831392C1CA5339C0050D6BC /* CartItemTableViewCell.swift */,
+				0831392D1CA5339C0050D6BC /* CartItemTableViewCell.xib */,
+			);
+			name = Carts;
+			sourceTree = "<group>";
+		};
+		CE32DE0AE31F05DCB6257D7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC57E7D7DCDAD2FC4851E396 /* Pods.framework */,
+				083139211CA4A8F50050D6BC /* Alamofire-SwiftyJSON.swift */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEBF3B48F74B5568C4E6FD17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE1E9A2925B41651F7E71844 /* Pods.debug.xcconfig */,
+				6449AD20977CD8E9704AC0FE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 083139091CA49B9E0050D6BC /* Build configuration list for PBXNativeTarget "SmartStore" */;
 			buildPhases = (
+				1DF59B3BE82F2EC8F735EF90 /* Check Pods Manifest.lock */,
 				083138DD1CA49B9D0050D6BC /* Sources */,
 				083138DE1CA49B9D0050D6BC /* Frameworks */,
 				083138DF1CA49B9D0050D6BC /* Resources */,
+				8E65CED4F32AD2B0C1FDB877 /* Embed Pods Frameworks */,
+				8E71BAE87D0820C24F89DD15 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +275,7 @@
 				TargetAttributes = {
 					083138E01CA49B9D0050D6BC = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4562ZPB9BG;
 					};
 					083138F41CA49B9D0050D6BC = {
 						CreatedOnToolsVersion = 7.3;
@@ -229,8 +312,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083139291CA4B4990050D6BC /* CartTableViewCell.xib in Resources */,
+				0831391E1CA4A3A30050D6BC /* ItemTableViewCell.xib in Resources */,
 				083138EF1CA49B9D0050D6BC /* LaunchScreen.storyboard in Resources */,
 				083138EC1CA49B9D0050D6BC /* Assets.xcassets in Resources */,
+				0831392F1CA5339C0050D6BC /* CartItemTableViewCell.xib in Resources */,
 				083138EA1CA49B9D0050D6BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +337,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DF59B3BE82F2EC8F735EF90 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E65CED4F32AD2B0C1FDB877 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E71BAE87D0820C24F89DD15 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		083138DD1CA49B9D0050D6BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083139171CA49F030050D6BC /* Item.swift in Sources */,
+				083139241CA4B2820050D6BC /* Cart.swift in Sources */,
+				0831392E1CA5339C0050D6BC /* CartItemTableViewCell.swift in Sources */,
+				083139151CA49D450050D6BC /* AllCartsViewController.swift in Sources */,
+				083139221CA4A8F50050D6BC /* Alamofire-SwiftyJSON.swift in Sources */,
 				083138E71CA49B9D0050D6BC /* ViewController.swift in Sources */,
 				083138E51CA49B9D0050D6BC /* AppDelegate.swift in Sources */,
+				0831391D1CA4A3A30050D6BC /* ItemTableViewCell.swift in Sources */,
+				083139281CA4B4990050D6BC /* CartTableViewCell.swift in Sources */,
+				083139201CA4A8AB0050D6BC /* APIMethods.swift in Sources */,
+				083139131CA49D310050D6BC /* AllItemsViewController.swift in Sources */,
+				0831392B1CA517F40050D6BC /* AddItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,9 +543,12 @@
 		};
 		0831390A1CA49B9E0050D6BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE1E9A2925B41651F7E71844 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SmartStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlexKarpov.SmartStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,9 +557,12 @@
 		};
 		0831390B1CA49B9E0050D6BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6449AD20977CD8E9704AC0FE /* Pods.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SmartStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlexKarpov.SmartStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +634,7 @@
 				0831390B1CA49B9E0050D6BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0831390C1CA49B9E0050D6BC /* Build configuration list for PBXNativeTarget "SmartStoreTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +643,7 @@
 				0831390E1CA49B9E0050D6BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0831390F1CA49B9E0050D6BC /* Build configuration list for PBXNativeTarget "SmartStoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +652,7 @@
 				083139111CA49B9E0050D6BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
